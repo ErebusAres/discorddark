@@ -1,7 +1,7 @@
-# hackmudtheme
+# DiscordDark
 You will need BetterDiscord to use the theme.
 
-Download hackmud.theme.css and put it in your %appdata%\betterdiscord\themes folder
+Download discorddark.theme.css and put it in your %appdata%\betterdiscord\themes folder
 
 The theme auto updates if you press CTRL + R to restart discord. (if there is an update available)
 
