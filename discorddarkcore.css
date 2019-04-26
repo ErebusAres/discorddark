@@ -1,6 +1,6 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.4";
+    --version: "0.0.5";
     --primary:red;
     --primary2: rgb(150, 0, 0);
     --medium: #141414;
@@ -97,7 +97,31 @@
 .theme-dark .dividerEnabled-2TTlcf{
     border-bottom-color: rgba(255,0,0,.3);
 }
-/* Scroller */
+/* Scroller Bar */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
+    background-color: var(--light);
+    border: 3px solid var(--lightv2);
+    border-radius: 0px;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    background-color: red;
+    border: 3px solid darkred; 
+    border-radius: 0px;   
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-track{
+    background-color: var(--light);
+    border: 3px solid var(--lightv2);
+    border-radius: 0px;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    background-color: red;
+    border: 3px solid darkred;
+    border-radius: 0px; 
+}
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 0px;
+}
 /* Mobile Indicator */
 .theme-dark .mobileIndicator-329Gd6{
     color: var(--primary);
