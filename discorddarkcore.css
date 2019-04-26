@@ -1,10 +1,12 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.2";
+    --version: "0.0.4";
     --primary:red;
+    --primary2: rgb(150, 0, 0);
     --medium: #141414;
     --dark: #000000;
-    --light: #202020;
+    --light: #1c1c1c;
+    --lightv2: #252525;
     --font: white;
 }
 
@@ -40,23 +42,79 @@
 .theme-dark .wrapper-1Rf91z{
     background-color: var(--dark);
 }
+.guildSeparator-3s64Iy{
+    background: var(--primary);
+}
 /* Channels Bar */
 .channels-Ie2l6A{
     background-color: var(--medium)!important;
 }
-/* Chat Bar - Message Area*/
+.container-PNkimc{
+    background-color: var(--medium)!important;
+}
+.users-i_3-kL{
+    background-color: var(--primary);
+    color: white;
+}
+.total-3tKGEB{
+    background-color: var(--lightv2);
+    color: white;
+}
+.total-3tKGEB:after{
+    border-right-color: var(--lightv2)
+}
+/* Chat Bar - Message Area */
 .theme-dark .chat-3bRxxu, 
 .theme-dark .chat-3bRxxu form,
 .theme-dark .content-yTz4x3{
     background-color: var(--light)!important;
 }
+.theme-dark .inner-zqa7da{
+    background-color: var(--medium);
+}
 /* Chat Bar Title Container */
 .theme-dark .container-1r6BKw{
     background-color: var(--light);
 }
+.theme-dark .children-19S4PO:after{
+    background: linear-gradient(90deg, rgba(32,32,32,0) 0,var(--medium));
+}
 /* Chat Bar - Messages Container */
 .theme-dark .messagesWrapper-3lZDfY{
     background-color: var(--light);
+}
+/* Sever Selected Icon */
+.item-2hkk8m{
+    background-color: var(--primary);
+    border-radius: 0 0px 0px 0;
+    height: 32px;
+}
+/* Members List */
+.theme-dark .members-1998pB{
+    background-color: var(--medium);
+}
+/* Chat Divider */
+.theme-dark .dividerEnabled-2TTlcf{
+    border-bottom-color: rgba(255,0,0,.3);
+}
+/* Scroller */
+/* Mobile Indicator */
+.theme-dark .mobileIndicator-329Gd6{
+    color: var(--primary);
+}
+/* ... Typing / Slowmode */
+.theme-dark .typing-2GQL18{
+    background-color: var(--light)
+}
+/* ICON - # / Voice */
+.theme-dark .icon-22AiRD{
+    color:var(--primary);
+}
+.theme-dark .icon-1_QxNX{
+    color: var(--primary);
+}
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX{
+    color: var(--primary2);
 }
 /* BD STUFF */
 #bd-settings-sidebar .ui-tab-bar-item{margin:2px 0}
