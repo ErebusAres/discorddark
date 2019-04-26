@@ -1,6 +1,6 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.1";
+    --version: "0.0.2";
     --primary:red;
     --medium: #141414;
     --dark: #000000;
@@ -39,6 +39,24 @@
 /* Server Bar */
 .theme-dark .wrapper-1Rf91z{
     background-color: var(--dark);
+}
+/* Channels Bar */
+.channels-Ie2l6A{
+    background-color: var(--medium)!important;
+}
+/* Chat Bar - Message Area*/
+.theme-dark .chat-3bRxxu, 
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3{
+    background-color: var(--light)!important;
+}
+/* Chat Bar Title Container */
+.theme-dark .container-1r6BKw{
+    background-color: var(--light);
+}
+/* Chat Bar - Messages Container */
+.theme-dark .messagesWrapper-3lZDfY{
+    background-color: var(--light);
 }
 /* BD STUFF */
 #bd-settings-sidebar .ui-tab-bar-item{margin:2px 0}
