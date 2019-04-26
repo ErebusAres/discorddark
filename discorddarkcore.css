@@ -1,6 +1,6 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.5";
+    --version: "0.0.6";
     --primary:red;
     --primary2: rgb(150, 0, 0);
     --medium: #141414;
@@ -45,6 +45,20 @@
 .guildSeparator-3s64Iy{
     background: var(--primary);
 }
+/* + Server - Find Server icons */
+.circleIconButton-jET_ig{
+    color: var(--primary);
+}
+.circleIconButton-jET_ig:hover{
+    color: white;
+    background-color: var(--primary);
+}
+/* Find or Start a Conversation */
+.searchBar-6Kv8R2{
+    border-bottom-color: var(--primary2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;    
+}
 /* Channels Bar */
 .channels-Ie2l6A{
     background-color: var(--medium)!important;
@@ -63,6 +77,55 @@
 .total-3tKGEB:after{
     border-right-color: var(--lightv2)
 }
+/* Channel Category */
+.name-IbjUBS{
+    color: var(--primary);
+    text-underline-position: below;
+    text-decoration-line: underline;
+}
+.icon-WnO6o2{
+    color: var(--primary);
+}
+.addButtonIcon-3u-3Hu polygon{
+    fill: red;
+}
+.addButtonIcon-3u-3Hu{
+    opacity: 1;
+}
+/* Friends - Playing */
+.channel-2QD9_O.selected-1HYmZZ .activity-525YDR{
+    color: white;
+    opacity: 1;
+}
+.activity-525YDR{
+    color: var(--primary);
+    opacity: 1;
+}
+/* Friends - Names */
+.channel-2QD9_O.selected-1HYmZZ{
+    color: white;
+}
+.channel-2QD9_O.selected-1HYmZZ .name-2WpE7M{
+    color: white;
+}
+.channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U{
+    color: white;
+}
+.channel-2QD9_O.selected-1HYmZZ a{
+    color: white;
+}
+.channel-2QD9_O:hover{
+    color: white;
+}
+.channel-2QD9_O:hover .name-2WpE7M{
+    color: var(--primary);
+}
+.channel-2QD9_O:hover .nameWrapper-10v56U{
+    color: white;
+}
+.channel-2QD9_O:hover a{
+    color: white;
+}
 /* Chat Bar - Message Area */
 .theme-dark .chat-3bRxxu, 
 .theme-dark .chat-3bRxxu form,
@@ -75,6 +138,10 @@
 /* Chat Bar Title Container */
 .theme-dark .container-1r6BKw{
     background-color: var(--light);
+    border-bottom-color: var(--primary2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 49px;
 }
 .theme-dark .children-19S4PO:after{
     background: linear-gradient(90deg, rgba(32,32,32,0) 0,var(--medium));
@@ -95,7 +162,7 @@
 }
 /* Chat Divider */
 .theme-dark .dividerEnabled-2TTlcf{
-    border-bottom-color: rgba(255,0,0,.3);
+    border-bottom-color: rgba(255,0,0,.25);
 }
 /* Scroller Bar */
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
@@ -126,6 +193,9 @@
 .theme-dark .mobileIndicator-329Gd6{
     color: var(--primary);
 }
+.mobileIndicator-3gyhuE{
+    color: var(--primary);
+}
 /* ... Typing / Slowmode */
 .theme-dark .typing-2GQL18{
     background-color: var(--light)
@@ -139,6 +209,10 @@
 }
 .theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX{
     color: var(--primary2);
+}
+/* ICON - Activity, Library, Nitro, Friends */
+.channel-2QD9_O .linkButtonIcon-Mlm5d6{
+    color: var(--primary);
 }
 /* BD STUFF */
 #bd-settings-sidebar .ui-tab-bar-item{margin:2px 0}
