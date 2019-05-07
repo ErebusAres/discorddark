@@ -1,12 +1,17 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.6";
+    --version: "0.0.7";
     --primary:red;
     --primary2: rgb(150, 0, 0);
     --medium: #141414;
+    --mediumv2: #404040;
     --dark: #000000;
     --light: #1c1c1c;
     --lightv2: #252525;
+    --lightv3: #555555;
+    --lightv4: #777777;
+    --lightv5: #353535;
+    --tester: lime;
     --font: white;
 }
 
@@ -39,6 +44,9 @@
     border-bottom:1px solid var(--primary);
 }
 /* Server Bar */
+.wrapper-1Rf91z foreignObject {
+    mask: none;
+}
 .theme-dark .wrapper-1Rf91z{
     background-color: var(--dark);
 }
@@ -52,6 +60,16 @@
 .circleIconButton-jET_ig:hover{
     color: white;
     background-color: var(--primary);
+}
+/* Server - Message Badge */
+.numberBadge-2s8kKX{
+    border-radius: 0;
+    background-color: var(--primary)!important;
+}
+/* Server - Voice Chat Badge */
+.theme-dark .iconBadge-2wi9r4{
+    background-color: var(--dark)!important;
+    border-radius: 0;
 }
 /* Find or Start a Conversation */
 .searchBar-6Kv8R2{
@@ -75,8 +93,43 @@
     color: white;
 }
 .total-3tKGEB:after{
-    border-right-color: var(--lightv2)
+    border-right-color: var(--lightv2);
 }
+.theme-dark .name-3_Dsmg{
+    color: var(--lightv4);
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_, 
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover{
+    background-color: var(--lightv2);
+    border-radius: 0
+}
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j{
+    background: inherit;
+}
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j .name-3_Dsmg{
+    color: var(--mediumv2);
+}
+.theme-dark .wrapper-1ucjTd{
+    background-color: var(--medium);
+}
+.theme-dark .wrapper-1ucjTd:hover,
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
+    background-color: var(--lightv2);
+}
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh{
+    border-radius: 0;
+    background-color: var(--lightv2);
+}
+.theme-dark .username-lm8y6T{
+    color: var(--lightv4);
+}
+.theme-dark .username-lm8y6T:hover{
+    color: white;
+}
+.content-3at_AU{
+    border-radius: 0;
+}
+
 /* Channel Category */
 .name-IbjUBS{
     color: var(--primary);
@@ -91,6 +144,10 @@
 }
 .addButtonIcon-3u-3Hu{
     opacity: 1;
+}
+/* Channel - Voice - Muted */
+.theme-dark .icon-3BcwQu{
+    color: var(--primary);
 }
 /* Friends - Playing */
 .channel-2QD9_O.selected-1HYmZZ .activity-525YDR{
@@ -126,6 +183,19 @@
 .channel-2QD9_O:hover a{
     color: white;
 }
+
+/* Chat - New Messages */
+.newMessagesBar-mujexs,
+.newMessagesBar-mujexs button:last-child{
+    background: var(--primary2);
+    color: white;
+    border-radius: 0%;
+}
+.newMessagesBar-mujexs:hover,
+.newMessagesBar-mujexs button:last-child:hover{
+    background: var(--primary);
+    color: white;
+}
 /* Chat Bar - Message Area */
 .theme-dark .chat-3bRxxu, 
 .theme-dark .chat-3bRxxu form,
@@ -134,6 +204,41 @@
 }
 .theme-dark .inner-zqa7da{
     background-color: var(--medium);
+}
+/* Chat - Code Inline */
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline{
+    background: var(--dark);
+    border: var(--primary);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    color: white;
+}
+/* Chat - Mention */
+.theme-dark .wrapper-3WhCwL,
+.theme-dark .wrapperHover-1GktnT{
+    color: var(--primary);
+    background-color: rgba(255, 0, 0, .1)!important;
+}
+.wrapper-3WhCwL:hover{
+    color: var(--primary);
+    background:rgba(255, 0, 0, 0.5)!important;
+}
+.theme-dark .isMentioned-N-h9aa{
+    color: var(--primary);
+    background:rgba(255, 0, 0, 0.1)!important;
+} 
+.wrapperHover-1GktnT, .wrapperNoHover-3GxBbU{
+    color: var(--primary)!important;
+}
+/* Chat - New Messages - Span Bar */
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI{
+    color: var(--primary);
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after,
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before{
+    border-color: var(--primary);
 }
 /* Chat Bar Title Container */
 .theme-dark .container-1r6BKw{
@@ -229,6 +334,6 @@
     border-left:4px solid transparent;
     box-sizing:border-box
 }
-.link-1IoFq-[title=Twitter]:hover .foreground-26ym5y{fill:#00acff}
+.link-1IoFq-[title=Twitter]:hover .foreground-26ym5y{fill:#38A1F3}
 .link-1IoFq-[title=Facebook]:hover .foreground-26ym5y{fill:#3b5998}
-.link-1IoFq-[title=Instagram]:hover .foreground-26ym5y{fill:#c32aa3}
+.link-1IoFq-[title=Instagram]:hover .foreground-26ym5y{fill:#fb3958}
