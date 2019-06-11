@@ -1,6 +1,8 @@
+/*//META{"name":"DD TEST THEME","description":"DD TESTING","author":"ErebusAres#9612","version":"1.0","source":"","website":""}*//**/
+
 /* Root Stuff */
 :root{
-    --version: "0.0.8";
+    --version: "0.0.9";
     --primary:red;
     --primary2: rgb(150, 0, 0);
     --medium: #141414;
@@ -401,4 +403,14 @@
 .theme-dark .wrapper-3UweLa:hover,
 .theme-dark .recentlyPlayedContainer-2F3MqS:hover{
     background-color: var(--lightv2);
+}
+
+/* Direct Messages - Status */
+.status-1XNdyw{
+    border-radius: 0;
+}
+
+/* Server - Members - Status */
+.theme-dark .status-2s6iDp{
+    border-radius: 0;
 }
