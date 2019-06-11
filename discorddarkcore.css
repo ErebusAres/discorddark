@@ -1,6 +1,6 @@
 /* Root Stuff */
 :root{
-    --version: "0.0.7";
+    --version: "0.0.8";
     --primary:red;
     --primary2: rgb(150, 0, 0);
     --medium: #141414;
@@ -337,3 +337,68 @@
 .link-1IoFq-[title=Twitter]:hover .foreground-26ym5y{fill:#38A1F3}
 .link-1IoFq-[title=Facebook]:hover .foreground-26ym5y{fill:#3b5998}
 .link-1IoFq-[title=Instagram]:hover .foreground-26ym5y{fill:#fb3958}
+
+/* Friends */
+.theme-dark .container-3gCOGc{
+    background-color: var(--primary);
+}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d{
+    background-color: var(--medium);
+    border-bottom-color: var(--primary);
+}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ{
+    color: white;
+}
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA{
+    background-color: var(--primary);
+}
+.friendsTable-133bsv{
+    background-color: var(--light);
+}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm{
+    color: white;
+}
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover{
+    background-color: var(--lightv2);
+}
+
+/* Friends - Status */
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq{
+    border-radius: 0;
+}
+
+/* Friends - Direct Messages - Status */
+.channel-2QD9_O .status-1ibiUI{
+    border-radius: 0;
+    border: 1px;
+}
+
+/* Nitro */
+.momentum-2CXCBH{
+    background-color: var(--light);
+}
+
+/* Library */
+.stickyScroller-24zUyY{
+    background-color: var(--light);
+}
+.theme-dark .header-39GIC8{
+    background-color: var(--medium);
+    border-color: var(--primary);
+    color: white;
+}
+
+/* Activity */
+.theme-dark .layout-1cQCv2{
+    background-color: var(--light);
+}
+.theme-dark .outer-2IVh5n,
+.theme-dark .wrapper-3UweLa,
+.theme-dark .recentlyPlayedContainer-2F3MqS{
+    background-color: var(--medium);
+}
+.theme-dark .outer-2IVh5n:hover,
+.theme-dark .wrapper-3UweLa:hover,
+.theme-dark .recentlyPlayedContainer-2F3MqS:hover{
+    background-color: var(--lightv2);
+}
